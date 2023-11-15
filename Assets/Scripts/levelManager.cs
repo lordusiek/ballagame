@@ -8,6 +8,6 @@ public class levelManager : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Lose");
+        SceneManager.LoadScene("Game Over");
     }
 }

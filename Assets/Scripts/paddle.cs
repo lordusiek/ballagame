@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class paddle : MonoBehaviour
 {
-    [SerializeField] float minX = 1f;
-    [SerializeField] float maxX = 100f;
+    [SerializeField] float minX = 8f;
+    [SerializeField] float maxX = 96f;
     [SerializeField] float screenWidthInUnits = 100f;
 
     // Update is called once per frame
